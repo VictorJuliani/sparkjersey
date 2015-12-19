@@ -1,0 +1,18 @@
+// Apply the java plugin to add support for Java
+apply plugin: 'java'
+
+// In this section you declare where to find the dependencies of your project
+repositories {
+    jcenter()
+}
+
+dependencies {
+	compile 'com.sparkjava:spark-core:2.3'
+	compile 'javax.ws.rs:javax.ws.rs-api:2.0.1'
+	compile 'org.reflections:reflections:0.9.10'
+	compile 'org.projectlombok:lombok:1.16.6'	
+	
+    //compile 'org.slf4j:slf4j-api:1.7.12'
+
+    //testCompile 'junit:junit:4.12'
+}
